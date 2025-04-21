@@ -1,0 +1,11 @@
+
+2-for-1 Pricing: Stores and manufacturers will often offer "bunched pricing", such that you can buy a can of beans by itself at $1.99, or three of them for $2.98 (2-for-1, also known as "buy two, get one free"). Implement a PricingScheme that can be added to the Register so that from this point forward, any purchase of three of a particular kind of good will change the price to only two of them.
+
+There are no limits to the number of times that can apply to a single Receipt, so long as the good in question is on the Receipt. However, the core criteria must be met--if the 2-for-1 is for "Can of beans", and there is only one "Can of beans" on the Receipt, it does not kick in. If there are two "Can of beans" on the Receipt, then the pricing kicks in but the customer doesn't get a third "Can of beans" unless that is scanned.
+
+
+Approach:
+1. Probably a freq map of each item would be good for this
+2. examples: 8 -> 4, 7 -> 4, 9 -> 5
+Equation: num / 2 + num % 2 = res to pay
+Do that for freq of map

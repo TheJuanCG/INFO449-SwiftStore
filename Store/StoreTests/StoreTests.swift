@@ -66,4 +66,14 @@ TOTAL: $7.97
 """
         XCTAssertEqual(expectedReceipt, receipt.output())
     }
+    
+    func testGettingItemPrice() {
+        let item = Item(name: "Banana", priceEach: 50)
+        XCTAssertEqual(50, item.price())
+    }
+    
+    func testNegativeItemPrice() {
+        let item = Item(name: "Shoe", priceEach: -500)
+        XCTAssertEqual(0, item.price())
+    }
 }

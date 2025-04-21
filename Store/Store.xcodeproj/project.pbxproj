@@ -25,9 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FEAFD27B2B91637C00BEB810 /* Store */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Store; sourceTree = BUILT_PRODUCTS_DIR; };
+		319E90302DB43D2200EEEFA6 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		FEAFD27B2B91637C00BEB810 /* Store */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Store; path = "/Users/juangarcia/Documents/GitHub/INFO449-SwiftStore/Store/build/Debug/Store"; sourceTree = "<absolute>"; };
 		FEAFD27E2B91637C00BEB810 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		FEAFD2892B9163D100BEB810 /* StoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAFD2892B9163D100BEB810 /* StoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = StoreTests.xctest; path = "/Users/juangarcia/Documents/GitHub/INFO449-SwiftStore/Store/build/Debug/StoreTests.xctest"; sourceTree = "<absolute>"; };
 		FEAFD28B2B9163D100BEB810 /* StoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,19 +53,10 @@
 		FEAFD2722B91637C00BEB810 = {
 			isa = PBXGroup;
 			children = (
+				319E90302DB43D2200EEEFA6 /* File */,
 				FEAFD27D2B91637C00BEB810 /* Store */,
 				FEAFD28A2B9163D100BEB810 /* StoreTests */,
-				FEAFD27C2B91637C00BEB810 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		FEAFD27C2B91637C00BEB810 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FEAFD27B2B91637C00BEB810 /* Store */,
-				FEAFD2892B9163D100BEB810 /* StoreTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FEAFD27D2B91637C00BEB810 /* Store */ = {
@@ -147,7 +139,7 @@
 				Base,
 			);
 			mainGroup = FEAFD2722B91637C00BEB810;
-			productRefGroup = FEAFD27C2B91637C00BEB810 /* Products */;
+			productRefGroup = FEAFD2722B91637C00BEB810;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
